@@ -1,3 +1,3 @@
 # dotfiles
 
-All my essential configs in one place.
+All of them dotfiles. Well, most of them anyway.
