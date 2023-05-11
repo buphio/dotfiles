@@ -1,5 +1,6 @@
 require("gruvbox").setup({
     contrast = "hard",
+    italic = "false",
     palette_overrides = {
         dark0_hard = "#14191e"
     }
