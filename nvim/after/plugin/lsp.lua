@@ -5,10 +5,14 @@ local on_attach = function(_, _)
     vim.keymap.set('n', 'K', vim.lsp.buf.hover, {})
 end
 
+local capabilities = require('cmp_nvim_lsp').default_capabilities()
+
 lspconfig.pyright.setup{
     on_attach = on_attach,
+    capabilities = capabilties,
 }
 
-lspconfig.sourcekit.setup{
-    on_attch = on_attach,
+lspconfig.zls.setup{
+    on_attach = on_attach,
+    capabilities = capabilities,
 }

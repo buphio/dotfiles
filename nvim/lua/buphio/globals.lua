@@ -6,7 +6,7 @@ vim.g.loaded_perl_provider = 0
 -- lines
 vim.opt.relativenumber = true
 vim.opt.number = true
-vim.opt.colorcolumn = "100"
+vim.opt.colorcolumn = "90"
 vim.opt.scrolloff = 8
 vim.opt.signcolumn = "yes"
 vim.opt.wrap = false

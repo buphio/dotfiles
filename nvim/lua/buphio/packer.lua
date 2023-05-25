@@ -15,4 +15,9 @@ return require('packer').startup(function(use)
     use 'xiyaowong/transparent.nvim'
     -- LSP configs
     use 'neovim/nvim-lspconfig'
+    -- completion
+    use 'hrsh7th/nvim-cmp'
+    use 'hrsh7th/cmp-nvim-lsp'
+    use 'hrsh7th/cmp-buffer'
+    use 'L3MON4D3/LuaSnip'
 end)
