@@ -11,7 +11,7 @@ return require('packer').startup(function(use)
 		requires = { {'nvim-lua/plenary.nvim'} }
 	}
 	use 'nvim-treesitter/nvim-treesitter'
-    -- use 'nvim-lualine/lualine.nvim'
+    use 'nvim-lualine/lualine.nvim'
     use 'tpope/vim-fugitive'
     use 'ntpeters/vim-better-whitespace'
     use 'xiyaowong/transparent.nvim'

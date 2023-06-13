@@ -12,12 +12,12 @@ lspconfig.pyright.setup{
     capabilities = capabilties,
 }
 
-lspconfig.tsserver.setup{
-    on_attach = on_attach,
-    capabilities = capabilities,
-}
+--lspconfig.pylsp.setup{
+--    on_attach = on_attach,
+--    capabilities = capabilities,
+--}
 
-lspconfig.zls.setup{
+lspconfig.tsserver.setup{
     on_attach = on_attach,
     capabilities = capabilities,
 }
