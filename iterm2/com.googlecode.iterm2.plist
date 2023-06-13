@@ -1133,16 +1133,14 @@
 				<key>Alpha Component</key>
 				<real>1</real>
 				<key>Blue Component</key>
-				<real>0.0</real>
+				<real>0.13913252949714661</real>
 				<key>Color Space</key>
 				<string>sRGB</string>
 				<key>Green Component</key>
-				<real>0.0</real>
+				<real>0.13913252949714661</real>
 				<key>Red Component</key>
-				<real>0.0</real>
+				<real>0.14208984375</real>
 			</dict>
-			<key>Background Image Location</key>
-			<string>/Users/buphio/Pictures/synthwave-sunset.jpg</string>
 			<key>Background Image Mode</key>
 			<integer>2</integer>
 			<key>Badge Color</key>
@@ -1569,7 +1567,7 @@
 			<key>Non-ASCII Anti Aliased</key>
 			<true/>
 			<key>Normal Font</key>
-			<string>Zed-Mono-Extended 18</string>
+			<string>JetBrainsMono-Regular 18</string>
 			<key>Option Key Sends</key>
 			<integer>0</integer>
 			<key>Prompt Before Closing 2</key>
