@@ -4,17 +4,18 @@ right_format = "$time"
 add_newline = false
 
 [character]
-success_symbol = "[>](bold green)"
+success_symbol = "[\\$](bold blue)"
 error_symbol = "[x](bold red)"
-vimcmd_symbol = "[<](bold green)"
+vimcmd_symbol = "[<](bold blue)"
 
 [directory]
 fish_style_pwd_dir_length = 1
 truncation_length = 3
+style = 'bold green'
 
 [git_branch]
 format = 'on [$branch(:$remote_branch)]($style) '
-style = 'bold blue'
+style = 'bold yellow'
 
 [hostname]
 ssh_only = true
