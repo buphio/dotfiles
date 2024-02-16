@@ -17,6 +17,10 @@ style = 'bold green'
 format = 'on [$branch(:$remote_branch)]($style) '
 style = 'bold yellow'
 
+[git_status]
+modified = 'x'
+up_to_date = '✓'
+
 [hostname]
 ssh_only = true
 
