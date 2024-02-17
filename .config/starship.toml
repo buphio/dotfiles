@@ -18,7 +18,7 @@ format = 'on [$branch(:$remote_branch)]($style) '
 style = 'bold yellow'
 
 [git_status]
-modified = 'x'
+modified = '✘'
 up_to_date = '✓'
 
 [hostname]
