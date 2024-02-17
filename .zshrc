@@ -6,4 +6,5 @@ eval "$(zoxide init zsh)"
 alias ls="ls -G"
 alias ll="ls -l"
 alias la="ll -a"
+alias cd="z"
 alias vi=nvim
